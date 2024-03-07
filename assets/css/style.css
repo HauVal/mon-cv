@@ -12,6 +12,7 @@ h1 {
 
 h2 {
     font-family: "Lato";
+    background-color: #dbc2a4;
 }
 
 p {
@@ -25,6 +26,24 @@ header {
 
 address {
     background-color: #2c1d27;
+}
+
+a {
     text-decoration: none;
     color: white;
+}
+
+#gauche {
+    background-color: #782221;
+}
+
+footer {
+    background-color: #782221;
+}
+
+#update {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
