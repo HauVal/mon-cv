@@ -26,6 +26,7 @@ header h2 {
     font-family: "lato";
     font-weight: bold;
     background-color: #782221;
+    padding-right: 0.9em;
 }
 
 h3 {
@@ -69,9 +70,9 @@ address {
 }
 
 #mail {
-    margin-left: 15em;
-    margin-right: 15em;
-    padding-right: 10em;
+    margin-left: 10em;
+    margin-right: 10em;
+    padding-right: 7em;
 }
 
 main {
