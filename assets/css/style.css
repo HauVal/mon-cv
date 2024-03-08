@@ -22,7 +22,7 @@ h2 {
     padding-left: 20px;
 }
 
-#poste {
+header h2 {
     font-family: "lato";
     font-weight: bold;
     background-color: #782221;
@@ -44,17 +44,20 @@ header {
     padding-top: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     
 }
 
-#photo_profil {
+header a img {
     width: 100px;
     height: 100px;
     object-fit: cover;
     border-radius: 50%;
     box-shadow: 0 0 5px orange;
+}
+
+header a img:hover {
+    cursor: zoom-in;
 }
 
 address {
@@ -67,6 +70,7 @@ address {
 #mail {
     margin-left: 200px;
     margin-right: 200px;
+    padding-right: 100px;
 }
 
 main {
@@ -117,7 +121,7 @@ footer {
     padding-top: 20px;
 }
 
-#reseaux {
+footer div {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -125,7 +129,11 @@ footer {
     padding-right: 500px;
 }
 
-#logo1, #logo2, #logo3 {
+footer div a:hover {
+    opacity: 0.6;
+}
+
+footer div a {
     width: 40px;
     height: 40px;
     display: flex;
@@ -133,9 +141,25 @@ footer {
     
 }
 
-#update {
+footer p {
     color: white;
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+#pro3, #pro4 {
+    border-right-width: 5px;
+    border-right-style: solid;
+    border-right-color: white;
+}
+
+#pro1:hover, #pro2:hover, #pro3:hover, #pro4:hover, #for1:hover, #for2:hover, #for3:hover, #for4:hover, #comp:hover {
+    border-right-width: 5px;
+    border-right-style: solid;
+    border-right-color: #782221;
+}
+
+address p a:hover {
+    text-decoration: underline;
 }
