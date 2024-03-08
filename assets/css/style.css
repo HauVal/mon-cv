@@ -9,20 +9,25 @@
 body {
     width: 1160px;
     margin: auto;
-
 }
 
-h1 h2{
+h1{
     font-family: "Lato";
 }
 
-h3 {
+h2 {
     font-family: "Lato";
     font-weight: bold;
     background-color: #dbc2a4;
 }
 
-h4 {
+#poste {
+    font-family: "lato";
+    font-weight: bold;
+    background-color: #782221;
+}
+
+h3 {
     font-family: "Lato";
     font-weight: bold;
 }
@@ -48,11 +53,19 @@ header {
     border-radius: 50%;
     box-shadow: 0 0 5px orange;
 }
+
 address {
     background-color: #2c1d27;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+main {
+    border-right-style: solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
 a {
@@ -68,6 +81,7 @@ footer {
     background-color: #782221;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 #reseaux {
@@ -76,7 +90,7 @@ footer {
     justify-content: center;
 }
 
-#logo {
+#logo1, #logo2, #logo3 {
     width: 25px;
     height: 25px;
 }
