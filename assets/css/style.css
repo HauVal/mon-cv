@@ -19,7 +19,7 @@ h2 {
     font-family: "Lato";
     font-weight: bold;
     background-color: #dbc2a4;
-    padding-left: 20px;
+    padding-left: 1em;
 }
 
 header h2 {
@@ -41,19 +41,20 @@ p ul {
 header {
     background-color: #782221;
     color: white;
-    padding-top: 10px;
+    padding-top: 1em;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     
 }
 
 header a img {
-    width: 200px;
-    height: 200px;
+    width: 15em;
+    height: 15em;
     object-fit: cover;
     border-radius: 50%;
-    box-shadow: 0 0 5px orange;
+    box-shadow: 0 0 0.5em orange;
 }
 
 header a img:hover {
@@ -68,9 +69,9 @@ address {
 }
 
 #mail {
-    margin-left: 200px;
-    margin-right: 200px;
-    padding-right: 100px;
+    margin-left: 15em;
+    margin-right: 15em;
+    padding-right: 10em;
 }
 
 main {
@@ -87,12 +88,12 @@ a {
 
 #gauche {
     background-color: #782221;
-    width: 300px;
-    padding-right: 50px;
+    width: 21em;
+    padding-right: 2em;
 }
 
 #p1 {
-    padding-left: 20px;
+    padding-left: 1em;
     color: white;
     text-align: justify;
     text-indent: 2em;
@@ -103,12 +104,12 @@ a {
 }
 
 #droite {
-    padding-right: 20px;
-    margin-left: 50px;
+    padding-right: 2em;
+    margin-left: 2em;
 }
 
 #border1, #border2, #border3 {
-    border-left-width: 10px;
+    border-left-width: 0.4em;
     border-left-style: solid;
     border-left-color: #782221;
 }
@@ -118,15 +119,15 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 20px;
+    padding-top: 1em;
 }
 
 footer div {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding-left: 500px;
-    padding-right: 500px;
+    padding-left: 30em;
+    padding-right: 30em;
 }
 
 footer div a:hover {
@@ -134,8 +135,8 @@ footer div a:hover {
 }
 
 footer div a {
-    width: 40px;
-    height: 40px;
+    width: 3em;
+    height: 3em;
     display: flex;
     justify-content: center;
     
@@ -149,13 +150,13 @@ footer p {
 }
 
 #pro3, #pro4 {
-    border-right-width: 5px;
+    border-right-width: 0.5em;
     border-right-style: solid;
     border-right-color: white;
 }
 
 #pro1:hover, #pro2:hover, #pro3:hover, #pro4:hover, #for1:hover, #for2:hover, #for3:hover, #for4:hover, #comp:hover {
-    border-right-width: 5px;
+    border-right-width: 0.5em;
     border-right-style: solid;
     border-right-color: #782221;
 }
