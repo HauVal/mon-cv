@@ -4,30 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="CV de Hauspie Valentin">
-    <link rel="shortcut icon" href="./images/favicon.png" type="image/png">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>CV Hauspie Valentin</title>
 </head>
+
 <body>
+
     <header>
-        <a href="./images/photo_de_profil.jpg" target="_blank"><img src="./images/photo_de_profil.jpg" 
+        <a href="./assets/images/photo_de_profil.jpg" target="_blank"><img src="./assets/images/photo_de_profil.jpg" 
             alt="Photo de profil d'un homme chauve, barbu avec des lunettes et aux yeux marrons"></a>
-        <h1>Hauspie Valentin</h1>
-        <p>Développeur web junior</p>
+        <h1>HAUSPIE VALENTIN</h1>
+        <h2>Développeur web junior</h2>
     </header>
+
+    <address>
+        <p>
+            <a href="https://www.google.fr/maps/place/165+Rue+du+G%C3%A9n%C3%A9ral+de+Gaulle,+59110+La+Madeleine/@50.654772,3.0704477,17z/data=!3m1!4b1!4m6!3m5!1s0x47c32a6b89331161:0x488b1635e4039897!8m2!3d50.6547686!4d3.0730226!16s%2Fg%2F11c3q4k_lc?entry=ttu" target="_blank">
+            165 rue du Général de Gaulle <br>
+            59110 La Madelaine</a>
+        </p>
+        <p id="mail"><a href="mailto:hauspie.valentin@gmail.com">hauspie.valentin@gmail.com</a></p>
+        <p><a href="tel:0706050403">0706050403</a></p>
+    </address>
+
     <main>
-       <address>
-            <p>
-                <a href="https://www.google.fr/maps/place/165+Rue+du+G%C3%A9n%C3%A9ral+de+Gaulle,+59110+La+Madeleine/@50.654772,3.0704477,17z/data=!3m1!4b1!4m6!3m5!1s0x47c32a6b89331161:0x488b1635e4039897!8m2!3d50.6547686!4d3.0730226!16s%2Fg%2F11c3q4k_lc?entry=ttu" target="_blank">
-                165 rue du Général de Gaulle 59110 La Madelaine</a>
-            </p>
-            <p><a href="mailto:hauspie.valentin@gmail.com">hauspie.valentin@gmail.com</a></p>
-            <p><a href="tel:0706050403">0706050403</a></p>
-       </address>
-       <section>
+       <section id="gauche">
             <div>
                 <h2>A propos</h2>
-                <p>
+                <p id="p1">
                     En cours de formation de développeur Web et Mobile et professionnel doté de nombreuses 
                     années d'expérience dans l'animation, combinées à une solide formation dans le domaine 
                     de l'enseignement musical et une forte aptitude à acquérir de nouvelles connaissances. 
@@ -39,7 +44,7 @@
 
             <div>
                 <h2>Langues parlées</h2>
-                <ul>
+                <ul id="p2">
                     <li>Français : Langue maternelle</li>
                     <li>Anglais : Débutant</li>
                 </ul>
@@ -47,19 +52,19 @@
 
             <div>
                 <h2>Centres d'intérêt</h2>
-                <ul>
+                <ul id="p3">
                     <li>Musique</li>
                     <li>Jeux de société</li>
                     <li>Jeux vidéo</li>
                     <li>Informatique</li>
                 </ul>
             </div>
-       </section>
+        </section>
 
-       <section>
-            <div>
-                <h2>Expériences professionnelles</h2>
+        <section id="droite">
+            <h2 id="border1">Expériences professionnelles</h2>
 
+            <div id="pro1">
                 <h3>Assistant d'éducation et maître d'internat - Lycée des flandres à Hazebrouck</h3>
                 <p>Du <time datetime="2021-09-01">01/09/21</time> à maintenant.</p>
                 <ul>
@@ -67,7 +72,9 @@
                     <li>Surveillances des élèves dans l'enceinte de l'établissement et veiller au respect du règlement intérieur.</li>
                     <li>Vie quotidienne avec les élèves de l'internat. Animations au foyer pour les internes.</li>
                 </ul>
+            </div>
 
+            <div id="pro2">
                 <h3>Directeur ALSH et périscolaire - Commune de Godewaersvelde</h3>
                 <p>Du <time datetime="2017-07-01">01/07/17</time> au <time datetime="2022-08-01">01/08/22</time></p>
                 <ul>
@@ -78,7 +85,9 @@
                     <li>Direction de l'équipe d'animation composé de 20 personnes.</li>
                     <li>Direction et animation des temps périscolaire</li>
                 </ul>
+            </div>
 
+            <div id="pro3">
                 <h3>
                     Professeur de percussion, Eveil et formation musical - 
                     Ecole de musique de Caestre et Godewaersvelde
@@ -89,7 +98,9 @@
                     <li>Préparation des cours par niveau.</li>
                     <li>Enseignement des différentes techniques des instruments et de la théorie.</li>
                 </ul>
+            </div>
 
+            <div id="pro4">
                 <h3>Animateur ALSH et périscolaire - Commune de Godewaersvelde, Steenvoorde et Boeschepe</h3>
                 <p>Du <time datetime="2011-07-01">01/07/11</time>au <time datetime="2017-06-30">30/06/17</time></p>
                 <ul>
@@ -99,30 +110,35 @@
                 </ul>
             </div>
 
-            <div>
-                <h2>Diplômes/Formations</h2>
+            <h2 id="border2">Diplômes/Formations</h2>
 
+            <div id="for1">
                 <h3>Formation développeur web et mobile </h3>
                 <p>En cours</p>
                 <p>ECF</p>
+            </div>
 
+            <div id="for2">
                 <h3>BAFD - Brevet d'Aptitudes aux Fonctions de Directeur</h3>
                 <p>Obtention en 2020</p>
                 <p>UFCV</p>
+            </div>
 
+            <div id="for3">
                 <h3>Formation Musicien Interprète de la Musique Actuelle</h3>
                 <p>Du <time datetime="2014-09-01">01/09/14</time>au <time datetime="2016-07-01">01/07/16</time></p>
                 <p>EF2M</p>
+            </div>
 
+            <div id="for4">
                 <h3>Baccalauréat Général - Série scientifique Science de l'Ingénieur</h3>
                 <p>Obtention en 2013</p>
                 <p>Lycée des Flandres</p>
             </div>
-
             <div>
-                <h2>Compétences</h2>
+                <h2 id="border3">Compétences</h2>
 
-                <ul>
+                <ul id="comp">
                     <li>HTML 5 : Débutant</li>
                     <li>CSS 3 : Débutant</li>
                     <li>GitHub : Débutant</li>
@@ -134,10 +150,12 @@
        </section>
     </main>
     <footer>
-        <!--Pour les réseau sociaux, j'ai mis exprès les liens des pages d'acceuil (sauf pour GitHub)-->
-        <a href="https://fr.linkedin.com/" target="_blank"><img src="./images/linkedin.svg" alt="Logo de Linkedin"></a>
-        <a href="https://twitter.com/?lang=fr" target="_blank"><img src="./images/square-x-twitter.svg" alt="Logo de twitter"></a>
-        <a href="https://github.com/HauVal" target="_blank"><img src="./images/square-github.svg" alt="Logo GiitHub"></a>
+        <div id="reseaux">
+            <!--Pour les réseau sociaux, j'ai mis exprès les liens des pages d'acceuil (sauf pour GitHub)-->
+            <a href="https://fr.linkedin.com/" target="_blank"><img src="./assets/images/linkedin.png" alt="Logo de Linkedin"></a>
+            <a href="https://twitter.com/?lang=fr" target="_blank"><img src="./assets/images/square-x-twitter.svg" alt="Logo de twitter"></a>
+            <a href="https://github.com/HauVal" target="_blank"><img src="./assets/images/square-github.svg" alt="Logo GiitHub"></a>
+        </div>
         <p><small>Dernière mise à jour le <time datetime="2024-03-07">7 mars 2024</time></small></p>
     </footer>
 </body>
